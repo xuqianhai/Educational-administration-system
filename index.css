@@ -1,0 +1,85 @@
+/* 顶部 */
+
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/bgi.jpg);
+    background-size: 110% 100%;
+    background-attachment: fixed;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    background-color: #D22E2E;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signIn {
+    background-color: #D22E2E;
+    padding-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a:active {
+    color: #D22E2E !important;
+}
+
+.logo {
+    width: 148px;
+    height: 34px;
+    background-color: #D22E2E;
+}
+
+
+/* 内容 */
+
+.content {
+    width: 100%;
+    height: 620px;
+}
+
+h3 {
+    font-weight: bold;
+    letter-spacing: 35px
+}
+
+span {
+    letter-spacing: 22px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.signInButton {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signInButton:hover {
+    background-color: rgba(105, 165, 254, 0.6);
+    transition-duration: .3s
+}
+
+.signInButton:focus {
+    border-color: rgba(105, 165, 254, 0.6);
+}
+
+
+/* 页脚 */
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    text-align: center;
+}

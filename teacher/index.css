@@ -1,0 +1,88 @@
+/* 首页初始化 */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    display: flex;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    background-color: #D22E2E;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signIn {
+    background-color: #D22E2E;
+    padding-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 148px;
+    height: 34px;
+    background-color: #D22E2E;
+}
+
+
+/* 默认显示 */
+
+.default {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 按钮选项 */
+
+
+/* 添加学生 */
+
+.tableName {
+    text-align: center;
+}
+
+.submitButton {
+    padding: 30px;
+    color: #13ce66;
+    background: #e7faf0;
+    border-color: #a1ebc2;
+    border-radius: 20px;
+}
+
+.submitButton:active {
+    background: #11b95c;
+    border-color: #11b95c;
+    color: #fff;
+    outline: none;
+}
+
+td:focus {
+    background: #11b95c;
+    border-color: #11b95c;
+    color: #fff;
+    outline: none;
+}
+
+.submitButton:focus {
+    background: #11b95c;
+    border-color: #11b95c;
+    color: #fff;
+    outline: none;
+}
+
+span {
+    letter-spacing: 22px;
+    color: white;
+    padding-bottom: 40px;
+}
